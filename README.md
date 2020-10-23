@@ -1,5 +1,14 @@
 # baskets
 
+   * Spring Boot
+   * thymeleaf
+   * Mysql
+   * Hibernate
+   * Jpa
+   * HTML
+   * Css
+   * Jquery/Javascript
+
 ###### Welcome Page and Insert Name http://localhost:8080/
 <img src="https://github.com/krimanny/baskets/blob/main/s1.png" width="370" height="300"/>
 
