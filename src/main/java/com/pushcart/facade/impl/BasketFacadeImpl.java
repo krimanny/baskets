@@ -23,8 +23,8 @@ public class BasketFacadeImpl implements BasketFacade {
     }
 
     @Override
-    public void createNewBasket() {
-        basketService.createNewBasket();
+    public Basket createNewBasket() {
+        return basketService.createNewBasket();
     }
 
     @Override

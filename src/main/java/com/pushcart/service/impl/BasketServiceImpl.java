@@ -32,8 +32,8 @@ public class BasketServiceImpl implements BasketService {
     }
 
     @Override
-    public void createNewBasket() {
-        basketRepository.save(new Basket());
+    public Basket createNewBasket() {
+        return basketRepository.save(new Basket());
     }
 
     @Override

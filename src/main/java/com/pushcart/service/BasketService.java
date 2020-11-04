@@ -11,7 +11,7 @@ public interface BasketService {
 
     public List<Basket> getAllBasket();
 
-    public void createNewBasket();
+    public Basket createNewBasket();
 
     public Optional<Basket> getBasket(Long id);
 

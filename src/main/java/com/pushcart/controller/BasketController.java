@@ -24,8 +24,8 @@ public class BasketController {
 
     @PostMapping("/basket")
     @ResponseStatus(HttpStatus.CREATED)
-    public void createBasket() {
-        pusCartfacade.createNewBasket();
+    public Basket createBasket() {
+        return pusCartfacade.createNewBasket();
     }
 
     @GetMapping("/basket/{id}")
